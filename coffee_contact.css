@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.header.header-contact {
+  background: url(img/contact/coffee_contact.jpg) no-repeat center center/cover;
+}
+
+.catch-copy {
+  color: aliceblue;
+  margin-top: -35px;
+  text-shadow: 1px -1px 1px;
+}
+
+.catch-copy span, .page-title span {
+  border-bottom: 3px solid whitesmoke;
+  padding-bottom: 4px;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.section-contact {
+  padding: 30px 0 50px;
+}
+
+@media print, screen and (min-width: 768px) {
+  .section-contact {
+    padding: 60px 0 100px;
+    margin: 0 auto;
+  }
+}
+
+.lead {
+  margin-bottom: 30px;
+}
+
+@media print, screen and (min-width: 768px) {
+  .lead {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+.select ,input[type="text"], textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 43px;
+  padding: 0 10px;
+  border: 1px solid #000;
+  border-radius: 0;
+  background: #fff;
+  font-size: 1.6rem;
+  line-height: 43px;
+}
+
+.selectbox-wrap {
+  position: relative;
+  width: 240px;
+  height: 43px;
+  z-index: 1;
+}
+
+.selectbox-wrap::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 12px;
+  background: url(img/contact/icon_select.png) no-repeat center center/cover;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+  right: 15px;
+  z-index: 10;
+}
+
+.form-block {
+  margin-bottom: 25px;
+}
+
+@media print, screen and (min-width: 768px) {
+  .form-block {
+    width: 600px;
+    margin: 0 auto 30px;
+  }
+}
+
+.form-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.form-title span {
+  display: inline-block;
+  font-size: 1.0rem;
+  color: #f32938;
+  margin-left: 8px;
+}
+
+.textarea {
+  height: 97px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.submit-btn {
+  display: block;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 116px;
+  height: 43px;
+  line-height: 43px;
+  margin: 0 auto;
+}
