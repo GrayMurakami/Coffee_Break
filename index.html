@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="coffee_reset.css">
     <link rel="stylesheet" href="coffee_common.css">
     <link rel="stylesheet" href="coffee_top.css">
+    <script>
+      window.onload = function() {
+        navigator.vibrate([200, 100, 200]);
+      };
+    </script>
   </head>
   <body>
     <header class="header">
@@ -52,10 +57,5 @@
     <footer class="footer">
       <p class="copy"><small>&copy; GRAY</small></p>
     </footer>
-    <script>
-      window.onload = function() {
-        navigator.vibrate([200, 100, 200]);
-      };
-    </script>
   </body>
 </html>
