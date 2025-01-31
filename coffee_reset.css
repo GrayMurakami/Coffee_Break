@@ -107,7 +107,7 @@ html {
 
 body {
   color: #000;
-  font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -141,6 +141,6 @@ img {
     transition: .2s ease-in-out;
   }
   body a:hover {
-    opacity: .5;
+    opacity: .8;
   }
 }
