@@ -39,7 +39,7 @@
   z-index: 1;
 }
 
-.img-link a .heading02 {
+.img-link a .heading02-left {
   color: #fff;
   z-index: 2;
   position: absolute;
@@ -51,8 +51,86 @@
   margin-bottom: 0;
 }
 
-.img-link a .heading02 span {
-  border-color: #fff;
+.img-link a .heading02-left span {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  padding-left: 1em;
+}
+
+.img-link a .heading02-left span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.img-link a:hover .heading02-left span::after {
+  width: 100%;
+  left: 0;
+}
+
+
+
+.img-link a .heading02-right {
+  color: #fff;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  margin-bottom: 0;
+}
+
+.img-link a .heading02-right span {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+  padding-right: 1em;
+}
+
+.img-link a .heading02-right span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.img-link a:hover .heading02-right span::after {
+  width: 100%;
+  right: 0;
+}
+
+.heading02 span {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+}
+
+.heading02 span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.heading02 span:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .img-link a img {
