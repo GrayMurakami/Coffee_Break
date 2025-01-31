@@ -5,12 +5,20 @@
 
 .catch-copy {
   color: rgb(240, 248, 255);
-  margin-top: 55px;
 }
 
 .catch-copy span, .page-title span {
-  border-bottom: 3px solid rgb(187, 183, 168);
   padding-bottom: 4px;
+}
+
+/* life hack edit */
+.lh-space {
+  margin-bottom: 1em;
+}
+
+.lead-lh {
+  font-weight: bold;
+  background: radial-gradient(circle, #D2B59B 60%, transparent 100%);
 }
 
 .wrapper {
@@ -21,6 +29,11 @@
 
 .section-place {
   padding: 30px 0 50px;
+}
+
+.hr-between {
+  margin: 50px;
+  border-top: 1px solid #9a0303;
 }
 
 @media print, screen and (min-width: 768px) {
@@ -53,7 +66,7 @@
 }
 
 .place-name {
-  font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -95,4 +108,26 @@
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.heading02 span {
+  display: inline-block;
+  position: relative;
+  font-size: 1.4em;
+}
+
+.heading02 span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.heading02 span:hover::after {
+  width: 100%;
+  left: 0;
 }
