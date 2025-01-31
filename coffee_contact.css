@@ -6,11 +6,9 @@
 .catch-copy {
   color: aliceblue;
   margin-top: -35px;
-  text-shadow: 1px -1px 1px;
 }
 
 .catch-copy span, .page-title span {
-  border-bottom: 3px solid whitesmoke;
   padding-bottom: 4px;
 }
 
@@ -90,15 +88,18 @@
 }
 
 .form-title {
-  font-size: 1.4rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.9rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.form-title span {
+.must {
   display: inline-block;
-  font-size: 1.0rem;
-  color: #f32938;
-  margin-left: 8px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  padding-right: 0.7em;
 }
 
 .textarea {
@@ -122,4 +123,9 @@
   height: 43px;
   line-height: 43px;
   margin: 0 auto;
+  transition: transform 0.4s ease;;
+}
+
+.submit-btn:hover {
+  transform: scale(1.2);
 }
