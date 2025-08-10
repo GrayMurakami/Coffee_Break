@@ -14,6 +14,7 @@ npx http-server .
 # Right-click index.html → “Open with Live Server”
 
 Then visit: `http://localhost:8080` (or the port shown in your terminal).
+```
 
 ## Features
 
@@ -30,10 +31,7 @@ Then visit: `http://localhost:8080` (or the port shown in your terminal).
 
 - **HTML5**
 - **CSS3** (custom styles, no preprocessors or frameworks)
-```
-Вот это в формате **Markdown**:
 
-```md
 ## Development Notes
 
 - **Reset first:** `coffee_reset.css` should be loaded before other styles.
@@ -57,4 +55,3 @@ Then visit: `http://localhost:8080` (or the port shown in your terminal).
 ## Author
 
 Made by [GrayMurakami](https://github.com/GrayMurakami)
-```
